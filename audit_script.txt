@@ -1,0 +1,901 @@
+config system alias
+edit 1.1doc
+set command "
+#1.1 ;2
+"
+end
+
+config system alias
+edit 1.2doc
+set command "
+#1.2 ;d
+"
+end
+
+config system alias
+edit 1.3doc
+set command "
+#1.3 ;0
+"
+end
+
+config system alias
+edit 3.1doc
+set command "
+#3.1 ;y
+"
+end
+
+config system alias
+edit 3.2doc
+set command "
+#3.2 ;0
+"
+end
+
+config system alias
+edit 3.3doc
+set command "
+#3.3 ;1
+"
+end
+
+config system alias
+edit 3.4doc
+set command "
+#3.4 ;0
+"
+end
+
+config system alias
+edit 2.4.4doc
+set command "
+#2.4.4 ;1
+"
+end
+
+config system alias
+edit 2.4.5doc
+set command "
+#2.4.5 ;0
+"
+end
+
+config system alias
+edit 2.4.6doc
+set command "
+#2.4.6 ;>2
+"
+end
+
+config system alias
+edit 2.4.7doc
+set command "
+#2.4.7 ;0
+"
+end
+
+config system alias
+edit 2.5.1doc
+set command "
+#2.5.1 ;1
+"
+end
+
+config system alias
+edit 2.5.2doc
+set command "
+#2.5.2 ;1
+"
+end
+
+config system alias
+edit 2.5.3doc
+set command "
+#2.5.3 ;3
+"
+end
+
+config system alias
+edit 5.1.1doc
+set command "
+#5.1.1 ;1
+"
+end
+
+config system alias
+edit 5.2.1.1doc
+set command "
+#5.2.1.1 ;1
+"
+end
+
+config system alias
+edit 6.1.1doc
+set command "
+#6.1.1 ;0
+"
+end
+
+config system alias
+edit 6.1.2doc
+set command "
+#6.1.2 ;3
+"
+end
+
+config system alias
+edit 7.1doc
+set command "
+#7.1 ;2
+"
+end
+
+config system alias
+edit 8.1.1doc
+set command "
+#8.1.1 ;0
+"
+end
+
+config system alias
+edit 8.2.1doc
+set command "
+#8.2.1 ;2
+"
+end
+
+config system alias
+edit 8.3.1doc
+set command "
+#8.3.1 ;0
+"
+end
+
+config system alias
+edit 2.1.1doc
+set command "
+#2.1.1 ;1
+"
+end
+
+config system alias
+edit 2.1.2doc
+set command "
+#2.1.2 ;1
+"
+end
+
+config system alias
+edit 2.1.3doc
+set command "
+#2.1.3 ;1
+"
+end
+
+config system alias
+edit 2.1.4doc
+set command "
+#2.1.4 ;m
+"
+end
+
+config system alias
+edit 2.1.5doc
+set command "
+#2.1.5 ;0
+"
+end
+
+config system alias
+edit 2.1.6doc
+set command "
+#2.1.6 ;m
+"
+end
+
+config system alias
+edit 2.1.7doc
+set command "
+#2.1.7 ;2
+"
+end
+
+config system alias
+edit 2.1.8doc
+set command "
+#2.1.8 ;1
+"
+end
+
+config system alias
+edit 2.1.9doc
+set command "
+#2.1.9 ;1
+"
+end
+
+config system alias
+edit 2.1.10doc
+set command "
+#2.1.10 ;1
+"
+end
+
+config system alias
+edit 2.2.1doc
+set command "
+#2.2.1 ;1
+"
+end
+
+config system alias
+edit 2.2.2doc
+set command "
+#2.2.2 ;1
+"
+end
+
+config system alias
+edit 2.3.1doc
+set command "
+#2.3.1 ;1
+"
+end
+
+config system alias
+edit 2.3.2doc
+set command "
+#2.3.2 ;==1
+"
+end
+
+config system alias
+edit 2.4.1doc
+set command "
+#2.4.1 ;g
+"
+end
+
+config system alias
+edit 2.4.2doc
+set command "
+#2.4.2 ;1
+"
+end
+
+config system alias
+edit 2.4.3doc
+set command "
+#2.4.3 ;n
+"
+end
+
+config system alias
+edit 4.1.1doc
+set command "
+#4.1.1 ;m
+"
+end
+
+config system alias
+edit 4.1.2doc
+set command "
+#4.1.2 ;c
+"
+end
+
+config system alias
+edit 4.2.1doc
+set command "
+#4.2.1 ;2
+"
+end
+
+config system alias
+edit 4.2.2doc
+set command "
+#4.2.2 ;c
+"
+end
+
+config system alias
+edit 4.2.3doc
+set command "
+#4.2.3 ;1
+"
+end
+
+config system alias
+edit 4.2.4doc
+set command "
+#4.2.4 ;1
+"
+end
+
+config system alias
+edit 4.2.5doc
+set command "
+#4.2.5 ;1
+"
+end
+
+config system alias
+edit 4.3.1doc
+set command "
+#4.3.1 ;c
+"
+end
+
+config system alias
+edit 4.3.2doc
+set command "
+#4.3.2 ;1
+"
+end
+
+config system alias
+edit 4.3.3doc
+set command "
+#4.3.3 ;c
+"
+end
+
+config system alias
+edit 4.4.1doc
+set command "
+#4.4.1 ;a
+"
+end
+
+config system alias
+edit 4.4.2doc
+set command "
+#4.4.2 ;1
+"
+end
+
+config system alias
+edit 4.4.3doc
+set command "
+#4.4.3 ;p
+"
+end
+
+config system alias
+edit 4.4.4doc
+set command "
+#4.4.4 ;c
+"
+end
+
+config system alias
+edit 1.1
+set command "
+show system alias 1.1doc | grep -i #1.1
+show system dns | grep -i 'set primary'
+
+show system dns | grep -i 'set secondary'
+"
+end
+
+config system alias
+edit 1.2
+set command "
+show system alias 1.2doc | grep -i #1.2
+show full system zone | grep edit
+show full system zone | grep 'set intrazone deny'
+"
+end
+
+config system alias
+edit 1.3
+set command "
+show system alias 1.3doc | grep -i #1.3
+show system interface | grep -i 'set allowaccess ping http'
+"
+end
+
+config system alias
+edit 3.1
+set command "
+show system alias 3.1doc | grep -i #3.1
+"
+end
+
+config system alias
+edit 3.2
+set command "
+show system alias 3.2doc | grep -i #3.2
+show firewall policy | grep -i 'service \"all\"'
+"
+end
+
+config system alias
+edit 3.3
+set command "
+show system alias 3.3doc | grep -i #3.3
+show full firewall policy | grep -i tor
+"
+end
+
+config system alias
+edit 3.4
+set command "
+show system alias 3.4doc | grep -i #3.4
+show firewall policy | grep 'set log traffic disable'
+"
+end
+
+config system alias
+edit 4.1.1
+set command "
+show system alias 4.1.1doc | grep -i #4.1.1
+show full firewall policy | grep 'ips-sensor \"'
+show full ips sensor | grep 'set scan-botnet-connections enable'
+show full ips sensor
+"
+end
+
+config system alias
+edit 4.1.2
+set command "
+show system alias 4.1.2doc | grep -i #4.1.2
+show firewall policy | grep -i 'set dstintf \"comcastint'
+"
+end
+
+config system alias
+edit 4.2.1
+set command "
+show system alias 4.2.1doc | grep -i #4.2.1
+show system autoupdate schedule | grep 'set status enable'
+show system autoupdate schedule | grep 'set frequency automatic'
+"
+end
+
+config system alias
+edit 2.1.1
+set command "
+show system alias 2.1.1doc | grep -i #2.1.1
+get system global | grep -i 'pre-login-banner    : enable'
+"
+end
+
+config system alias
+edit 2.1.2
+set command "
+show system alias 2.1.2doc | grep -i #2.1.2
+get system global | grep -i 'post-login-banner   : enable'
+"
+end
+
+config system alias
+edit 2.1.3
+set command "
+show system alias 2.1.3doc | grep -i #2.1.3
+get system global | grep -i 'eastern time'
+"
+end
+
+config system alias
+edit 2.1.4
+set command "
+show system alias 2.1.4doc | grep -i #2.1.4
+diag sys ntp status | grep -i 'reference time is'
+"
+end
+
+config system alias
+edit 2.1.5
+set command "
+show system alias 2.1.5doc | grep -i #2.1.5
+get system global | grep -i 'hostname            : fg'
+"
+end
+
+config system alias
+edit 2.1.6
+set command "
+show system alias 2.1.6doc | grep -i #2.1.6
+get system status | grep -i version:
+"
+end
+
+config system alias
+edit 2.1.7
+set command "
+show system alias 2.1.7doc | grep -i #2.1.7
+get system auto-install | grep -i 'auto-install-config : disable'
+
+get system auto-install | grep -i 'auto-install-image  : disable'
+"
+end
+
+config system alias
+edit 2.1.8
+set command "
+show system alias 2.1.8doc | grep -i #2.1.8
+get system global | grep -i 'ssl-static-key-ciphers: disable'
+"
+end
+
+config system alias
+edit 2.1.9
+set command "
+show system alias 2.1.9doc | grep -i #2.1.9
+"
+end
+
+config system alias
+edit 2.1.10
+set command "
+show system alias 2.1.10doc | grep -i #2.1.10
+show system global | grep -i 'admin-https-ssl-versions tlsv1-3'
+"
+end
+
+config system alias
+edit 2.2.1
+set command "
+show system alias 2.2.1doc | grep -i #2.2.1
+get system password-policy | grep -i 'status              : enable'
+"
+end
+
+config system alias
+edit 2.2.2
+set command "
+show system alias 2.2.2doc | grep -i #2.2.2
+get system global | grep -i 'admin-lockout-threshold: 3'
+"
+end
+
+config system alias
+edit 2.3.1
+set command "
+show system alias 2.3.1doc | grep -i #2.3.1
+show system snmp sysinfo | grep -i 'set status enable'
+"
+end
+
+config system alias
+edit 2.3.2
+set command "
+show system alias 2.3.2doc | grep -i #2.3.2
+show system snmp user | grep -i 'notify-hosts'
+
+show system snmp user | grep -i 'notify-hosts 0.0.0.0'
+"
+end
+
+config system alias
+edit 2.4.1
+set command "
+show system alias 2.4.1doc | grep -i #2.4.1
+"
+end
+
+config system alias
+edit 2.4.2
+set command "
+show system alias 2.4.2doc | grep -i #2.4.2
+config system admin 
+edit admin 
+show | grep -i trusthost 
+"
+end
+
+config system alias
+edit 2.4.3
+set command "
+show system alias 2.4.3doc | grep -i #2.4.3
+"
+end
+
+config system alias
+edit 2.4.4
+set command "
+show system alias 2.4.4doc | grep -i #2.4.4
+get system global | grep -i 'admintimeout        : 5'
+"
+end
+
+config system alias
+edit 2.4.5
+set command "
+show system alias 2.4.5doc | grep -i #2.4.5
+show system interface | grep -i ' http '
+
+show system interface | grep -i ' telnet '
+"
+end
+
+config system alias
+edit 2.4.6
+set command "
+show system alias 2.4.6doc | grep -i #2.4.6
+show firewall local-in-policy
+"
+end
+
+config system alias
+edit 2.4.7
+set command "
+show system alias 2.4.7doc | grep -i #2.4.7
+show system global | grep -i 'set admin-port 80'
+"
+end
+
+config system alias
+edit 2.5.1
+set command "
+show system alias 2.5.1doc | grep -i #2.5.1
+show system ha | grep 'set mode a-'
+"
+end
+
+config system alias
+edit 2.5.2
+set command "
+show system alias 2.5.2doc | grep -i #2.5.2
+show system ha | grep 'set monitor'
+"
+end
+
+config system alias
+edit 2.5.3
+set command "
+show system alias 2.5.3doc | grep -i #2.5.3
+show system ha | grep 'set ha-mgmt-status enable'
+show system ha | grep 'set interface'
+show system ha | grep 'set gateway'
+"
+end
+
+config system alias
+edit 4.2.2
+set command "
+show system alias 4.2.2doc | grep -i #4.2.2
+show firewall policy | grep -i 'set dstintf \"comcastint'
+show firewall policy | grep -i 'set dstintf \"internets\"' 
+show firewall policy | grep -i av-profile
+"
+end
+
+config system alias
+edit 4.2.3
+set command "
+show system alias 4.2.3doc | grep -i #4.2.3
+show antivirus profile | grep -i 'set outbreak-prevention block'
+"
+end
+
+config system alias
+edit 4.2.4
+set command "
+show system alias 4.2.4doc | grep -i #4.2.4
+show antivirus settings | grep -i 'set machine-learning-detection enable'
+"
+end
+
+config system alias
+edit 4.2.5
+set command "
+show system alias 4.2.5doc | grep -i #4.2.5
+show antivirus settings | grep -i 'set grayware enable'
+"
+end
+
+config system alias
+edit 4.3.1
+set command "
+show system alias 4.3.1doc | grep -i #4.3.1
+show dnsfilter profile | grep -i 'set block-botnet enable'
+show firewall policy | grep -i 'set dstintf \"comcastinternet\"'
+"
+end
+
+config system alias
+edit 4.3.2
+set command "
+show system alias 4.3.2doc | grep -i #4.3.2
+show dnsfilter profile | grep -i 'set log-all-domain enable'
+"
+end
+
+config system alias
+edit 4.3.3
+set command "
+show system alias 4.3.3doc | grep -i #4.3.3
+show firewall policy | grep -i 'set dstintf \"comcastinternet\"'
+show firewall policy | grep -i 'set dstintf \"internets\"' 
+show firewall policy | grep -i 'set dnsfilter-profile \"default\"'
+"
+end
+
+config system alias
+edit 4.4.1
+set command "
+show system alias 4.4.1doc | grep -i #4.4.1
+show application list default | grep -A1 'edit 1'
+"
+end
+
+config system alias
+edit 4.4.2
+set command "
+show system alias 4.4.2doc | grep -i #4.4.2
+show application list default | grep 'set enforce-default-app-port enable'
+"
+end
+
+config system alias
+edit 4.4.3
+set command "
+show system alias 4.4.3doc | grep -i #4.4.3
+show application list default | grep -A3 'edit 2'
+"
+end
+
+config system alias
+edit 4.4.4
+set command "
+show system alias 4.4.4doc | grep -i #4.4.4
+show firewall policy | grep -i 'set dstintf \"comcast'
+show firewall policy | grep -i 'set dstintf \"internets\"' 
+show firewall policy | grep -i 'set application-list \"default\"
+"
+end
+
+config system alias
+edit 5.1.1
+set command "
+show system alias 5.1.1doc | grep -i #5.1.1
+show system automation-stitch \"Compromised Host Quarantine\" | grep -i 'set status enabled'
+"
+end
+
+config system alias
+edit 5.2.1.1
+set command "
+show system alias 5.2.1.1doc | grep -i #5.2.1.1
+show system csf | grep -i 'set status enable'
+"
+end
+
+config system alias
+edit 6.1.1
+set command "
+show system alias 6.1.1doc | grep -i #6.1.1
+show vpn certificate local | grep -i default
+"
+end
+
+config system alias
+edit 6.1.2
+set command "
+show system alias 6.1.2doc | grep -i #6.1.2
+get vpn ssl settings | grep -i 'ssl-max-proto-ver   : tls1-3'
+
+get vpn ssl settings | grep -i 'ssl-min-proto-ver   : tls1-2'
+
+get vpn ssl settings | grep -i 'algorithm           : high'
+"
+end
+
+config system alias
+edit 7.1
+set command "
+show system alias 7.1doc | grep -i #7.1
+get user setting | grep -i 'auth-lockout-threshold: 5'
+
+get user setting | grep -i 'auth-lockout-duration: 300'
+"
+end
+
+config system alias
+edit 8.1.1
+set command "
+show system alias 8.1.1doc | grep -i #8.1.1
+get log eventfilter | grep -i disable
+"
+end
+
+config system alias
+edit 8.2.1
+set command "
+show system alias 8.2.1doc | grep -i #8.2.1
+get log fortianalyzer setting | grep -i enc-algorithm
+
+get log fortianalyzer setting | grep -i high
+"
+end
+
+config system alias
+edit 8.3.1
+set command "
+show system alias 8.3.1doc | grep -i #8.3.1
+get log fortianalyzer setting | grep -i 'status              : disable'
+"
+end
+
+config system alias
+edit a1
+set command "
+alias 1.1
+alias 1.2
+alias 1.3
+alias 3.1
+alias 3.2
+alias 3.3
+alias 3.4
+alias 4.1.1
+alias 4.1.2
+alias 4.2.1
+alias 2.1.1
+alias 2.1.2
+alias 2.1.3
+alias 2.1.4
+alias 2.1.5
+alias 2.1.6
+alias 2.1.7
+alias 2.1.8
+alias 2.1.9
+"
+end
+
+config system alias
+edit a2
+set command "
+alias 2.1.10
+alias 2.2.1
+alias 2.2.2
+alias 2.3.1
+alias 2.3.2
+alias 2.4.1
+alias 2.4.2
+alias 2.4.3
+alias 2.4.4
+alias 2.4.5
+alias 2.4.6
+alias 2.4.7
+alias 2.5.1
+alias 2.5.2
+alias 2.5.3
+alias 4.2.2
+alias 4.2.3
+alias 4.2.4
+"
+end
+
+config system alias
+edit a3
+set command "
+alias 4.2.5
+alias 4.3.1
+alias 4.3.2
+alias 4.3.3
+alias 4.4.1
+alias 4.4.2
+alias 4.4.3
+alias 4.4.4
+alias 5.1.1
+alias 5.2.1.1
+alias 6.1.1
+alias 6.1.2
+alias 7.1
+alias 8.1.1
+alias 8.2.1
+alias 8.3.1
+"
+end
+
+config system alias
+edit cis_audit
+set command "
+alias a1
+alias a2
+alias a3
+"
+end

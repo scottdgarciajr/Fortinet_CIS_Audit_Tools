@@ -1,0 +1,123 @@
+Identifier,Text,First Line,Line Count,Standard is Met
+1.1,"2
+set primary 96.45.45.45
+set secondary 96.45.46.46",2,2,1
+1.2,"d
+edit ""Internets""
+edit ""Trusted VLANs""
+edit ""Untrusted VLANS""
+set intrazone deny
+set intrazone deny
+set intrazone deny",d,6,1
+1.2,"set intrazone deny
+set allowaccess ping https fgfm
+set allowaccess ping https fgfm fabric
+set allowaccess ping https ssh fgfm fabric
+set allowaccess ping https ssh http fabric
+set allowaccess ping https",set intrazone deny,5,?
+"set command ""2.1.1",1,1,0,0
+2.1.2,1,1,0,0
+2.1.3,"1
+timezone            : (GMT-5:00) Eastern Time (US & Canada)",1,1,1
+2.1.4,"m
+reference time is ea393af8.74f72f6e -- UTC Wed Jul 10 16:53:12 2024
+reference time is ea393ae8.26f20033 -- UTC Wed Jul 10 16:52:56 2024
+reference time is ea393ae8.26f20033 -- UTC Wed Jul 10 16:52:56 2024
+reference time is ea393af8.74f72f6e -- UTC Wed Jul 10 16:53:12 2024",m,4,Manual; Requires Review
+2.1.5,0,0,0,1
+2.1.6,"m
+Version: FortiGate-60F v7.2.6,build1575,230926 (GA.F)
+BIOS version: 05000030",m,2,Manual; Requires Review
+2.1.7,2,2,0,0
+2.1.8,1,1,0,0
+2.1.9,"1
+strong-crypto       : enable",1,1,1
+2.1.10,1,1,0,0
+2.2.1,1,1,0,0
+2.2.2,"1
+admin-lockout-threshold: 3
+admin-lockout-duration: 60",1,2,1
+2.3.1,1,1,0,0
+2.3.2,==1,==1,0,0
+2.4.1,g,g,0,?
+2.4.2,1,1,0,0
+2.4.3,n,n,0,0
+2.4.4,"1
+admintimeout        : 5",1,1,1
+2.4.5,"0
+set allowaccess ping https ssh http fabric",0,1,1
+2.4.6,">2
+config firewall local-in-policy
+end",>2,2,0
+2.4.7,0,0,0,1
+2.5.1,g,g,0,?
+2.5.2,g,g,0,?
+2.5.3,g,g,0,?
+3.1,y,y,0,1
+3.2,"0
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""
+set service ""ALL""",0,10,1
+3.3,g,g,0,?
+3.4,"g""","g""",0,?
+4.1.1,g,g,0,?
+4.1.2,"c
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dstintf ""Internets""
+set ips-sensor ""default""",c,4,0
+4.1.2,"set ips-sensor ""default""
+config system autoupdate schedule
+end","set ips-sensor ""default""",2,?
+4.2.2,"c
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dstintf ""Internets""
+set av-profile ""default""",c,4,0
+4.2.2,"set av-profile ""default""","set av-profile ""default""",0,?
+4.2.4,"1
+set machine-learning-detection enable",1,1,1
+4.2.5,"1
+set grayware enable",1,1,1
+4.3.1,"c
+set block-botnet enable
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dnsfilter-profile ""default""",c,5,1
+4.3.1,"set dnsfilter-profile ""default""","set dnsfilter-profile ""default""",0,?
+4.3.3,"c
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dnsfilter-profile ""default""",c,4,0
+4.3.3,"set dnsfilter-profile ""default""","set dnsfilter-profile ""default""",0,?
+4.4.2,g,g,0,?
+4.4.3,g,g,0,?
+4.4.4,"c
+set dstintf ""Internets""
+set dstintf ""Internets""
+set dstintf ""Internets""
+set application-list ""default""",c,4,0
+4.4.4,"set application-list ""default""","set application-list ""default""",0,?
+5.2.1.1,1,1,0,0
+6.1.1,"0
+set comments ""This is the default CA certificate the SSL Inspection will use when generating new server certificates.""
+set comments ""This is the default CA certificate the SSL Inspection will use when generating new server certificates.""
+set comments ""This is the default CA certificate the SSL Inspection will use when generating new server certificates.""",0,3,1
+6.1.2,"3
+ssl-max-proto-ver   : tls1-3
+ssl-min-proto-ver   : tls1-2
+algorithm           : high",3,3,1
+7.1,2,2,0,0
+8.1.1,0,0,0,1
+8.2.1,2,2,0,0
+8.3.1,"0
+status              : disable",0,2,0
